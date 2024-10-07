@@ -30,5 +30,25 @@ namespace Taak1
         {
             Taak1.Background = new SolidColorBrush(Colors.LightGray);
         }
+
+        private void klikOpGeel(object sender, MouseButtonEventArgs e)
+        {
+            info.Text = "#FFFF00";
+        }
+
+        private void klikOpBlauw(object sender, MouseButtonEventArgs e)
+        {
+            info.Text = "#0000FF";
+        }
+
+        private void klikOpRood(object sender, MouseButtonEventArgs e)
+        {
+            info.Text = "#FF0000";
+        }
+
+        private void klikOpGroen(object sender, MouseButtonEventArgs e)
+        {
+            info.Text = "#008000";
+        }
     }
 }
