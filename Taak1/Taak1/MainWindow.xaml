@@ -15,8 +15,10 @@
         <Image Margin="63,107,600,239" Source="/images/Geel.png" Stretch="Fill" MouseLeftButtonDown="klikOpGeel"/>
         <Image Margin="267,199,396,147" Source="/images/Groen.png" Stretch="Fill" MouseLeftButtonDown="klikOpGroen"/>
         <Image Margin="63,199,600,147" Source="/images/Rood.png" Stretch="Fill" MouseLeftButtonDown="klikOpRood"/>
-        <TextBox x:Name="info" HorizontalAlignment="Left" Margin="216,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="info" HorizontalAlignment="Left" Margin="159,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="82,334,0,0" TextWrapping="Wrap" Text="KleurCode:" VerticalAlignment="Top"/>
+        <TextBox x:Name="informatie" HorizontalAlignment="Left" Margin="159,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="86,376,0,0" TextWrapping="Wrap" Text="Informatie" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
