@@ -9,8 +9,12 @@
         x:Name="Taak1"
         Background="LightGray">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Margin="67,55,0,0" TextWrapping="Wrap" Text="KleurenPyschologie" VerticalAlignment="Top" Width="144" Height="33" FontSize="14"/>
-        <Image Margin="699,10,10,346" Source="/images/PXL.png" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Margin="32,33,0,0" TextWrapping="Wrap" Text="KleurenPyschologie" VerticalAlignment="Top" Width="144" Height="33" FontSize="14"/>
+        <Image Margin="699,10,10,346" Source="/images/PXL.png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image Margin="267,107,396,239" Source="/images/Blauw.png" Stretch="Fill"/>
+        <Image Margin="63,107,600,239" Source="/images/Geel.png" Stretch="Fill"/>
+        <Image Margin="267,199,396,147" Source="/images/Groen.png" Stretch="Fill"/>
+        <Image Margin="63,199,600,147" Source="/images/Rood.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
