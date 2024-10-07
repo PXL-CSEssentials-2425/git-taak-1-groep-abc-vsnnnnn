@@ -10,6 +10,7 @@
         Background="LightGray">
     <Grid>
         <TextBox HorizontalAlignment="Left" Margin="67,55,0,0" TextWrapping="Wrap" Text="KleurenPyschologie" VerticalAlignment="Top" Width="144" Height="33" FontSize="14"/>
+        <Image Margin="699,10,10,346" Source="/images/PXL.png" Stretch="Fill"/>
 
     </Grid>
 </Window>
